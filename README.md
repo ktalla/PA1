@@ -5,7 +5,7 @@ There are 5 files, each file is a different program.
 Write a program that will read an array from a file and print if the numbers in the file are right truncatable primes. A right truncatable prime is a prime number, where if you truncate any numbers from the right, the resulting number is still prime. For example, 3797 is a truncatable prime number number because 3797, 379, 37, and 3 are all primes.
 
 ### Input-Output format: 
-Your program will take the file name as input. The first line in the file provides the total number of values in the array. The subsequent lines will contain an integer value. For example a sample input file “file1.txt” is:
+Your program will take the file name as input. The first line in the file provides the total number of values in the array. The subsequent lines will contain an integer value. For example a sample input file “file1.txt” is:<br>
 3 <br>
 397<br>
 73<br>
@@ -66,7 +66,7 @@ error
 In linear algebra, the determinant is a value that can be computed with a square matrix. The determinant describes some properties about the square matrix. Determinants are used for solving linear equations, computing inverses, etc, and is an important concept in linear algebra. In the fifth part of the assignment, you will write a program that computes the determinant of any n × n matrix. You will have to carefully manage malloc and free instructions to successfully compute the determinants.
 
 ### Input-Output format:
-Your program should accept a file as command line input. The format of a sample file test3.txt is shown below:
+Your program should accept a file as command line input. The format of a sample file test3.txt is shown below:<br>
 3<br>
 2 7 6<br>
 9 5 1<br>
