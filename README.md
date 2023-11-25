@@ -6,10 +6,10 @@ Write a program that will read an array from a file and print if the numbers in 
 
 ### Input-Output format: 
 Your program will take the file name as input. The first line in the file provides the total number of values in the array. The subsequent lines will contain an integer value. For example a sample input file “file1.txt” is:
-3
-397
-73
-47
+3 <br>
+397<br>
+73<br>
+47<br>
 
 The output will contain the same number of lines as the number of lines in the input file. Each line
 will either say yes if the corresponding integer is a truncatable prime or no if the corresponding
@@ -38,9 +38,9 @@ This program takes a file name as an argument from the command line. The file co
 ## fourth.c : Magic Square
 A magic square is an arrangement of the numbers from 1 to n2 in an (n x n) matrix, with each number occurring exactly once, and such that the sum of the entries of any row, any column, or any main diagonal is the same.
 An example of a Magic Square is as such:
-8 1 6
-3 5 7
-4 9 2
+8 1 6 <br>
+3 5 7<br>
+4 9 2<br>
 In this case, the sum of all entries in a given row, column or main diagonal is equal to 15. In this part, you will create a program that automatically creates a magic square for an odd-ordered matrix, i.e. n × n matrix where n is an odd number. There is a famous method for creating magic squares for matrix of odd order: https://en.wikipedia.org/wiki/Magic_square#A_method_for_constructing_a_magic_square_of_odd_order
 
 ### Method: 
@@ -55,9 +55,9 @@ Your program will accept a positive number n as a command line argument. You can
 Example Execution:
 Here is an example of the input and the expected result:
 $ ./fourth 3
-8 1 6
-3 5 7
-4 9 2
+8 1 6 <br>
+3 5 7<br>
+4 9 2<br>
 
 $ ./fourth 4
 error
@@ -67,10 +67,10 @@ In linear algebra, the determinant is a value that can be computed with a square
 
 ### Input-Output format:
 Your program should accept a file as command line input. The format of a sample file test3.txt is shown below:
-3
-2 7 6
-9 5 1
-4 3 8
+3<br>
+2 7 6<br>
+9 5 1<br>
+4 3 8<br>
 The first number (3) corresponds to the size of the square matrix (n). The dimensions of the matrix will be n x n. You can assume that n will not be greater than 20. The rest of the file contains the content of the matrix. Each line contains a row of the matrix, where each element is separated by a tab. You can assume that there will be no malformed input and the matrices will always contain valid integers. Your program should output the determinant of the n × n matrix provided by the file.
 
 
