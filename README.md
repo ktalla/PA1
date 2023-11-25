@@ -37,7 +37,7 @@ This program takes a file name as an argument from the command line. The file co
 
 ## fourth.c : Magic Square
 A magic square is an arrangement of the numbers from 1 to n2 in an (n x n) matrix, with each number occurring exactly once, and such that the sum of the entries of any row, any column, or any main diagonal is the same.
-An example of a Magic Square is as such:
+An example of a Magic Square is as such: <br>
 8 1 6 <br>
 3 5 7<br>
 4 9 2<br>
